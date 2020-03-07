@@ -2,14 +2,20 @@
 function renderCircles(cs) {
     // HINT: You probably need to write a for loop!
     //       Or, if you're feeling fancy, use .map() 
-    circlesHtml = cs.map(renderCircle).join("");
-
+    for (var = i; i < circles.length; i++) {
+// Not sure what I did wrong with the for loop. I think I broke it. Still a bit confused/unsure about placement//
+    // Still wrapping my head around where functions go & which ones to use where.// 
+    
+    }
+    function drawCircle(circles) {
+        return `
+     
     return `
         <div class="text-center mt-5">
             ${circlesHtml}
         </div>
     `
-}
+    
 
 function renderCircle(c) {
     return `<div style="width: ${c.radius}px;
